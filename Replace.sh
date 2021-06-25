@@ -24,4 +24,4 @@ if [ -f "$output" ]; then
     esac
 fi
 
-sed 's/@BG@/000000/g; s/@BO@/4A4A4A/g; s/@MG@/939393/g; s/@FG@/DDDDDD/g; s/@AD@/1D5224/g; s/@AM@/3DA94B/g; s/@AL@/5CFF72/g' "$input" >"$output"
+sed 's/@BG@/000000/g; s/@BO@/4A4A4A/g; s/@MG@/939393/g; s/@FG@/DDDDDD/g; s/@AD@/1D5224/g; s/@AM@/3DA94B/g; s/@AL@/5CFF72/g; s/@A@/849324/g; s/@W@/FFC857/g; s/@E@/DB3A34/g; s/@I@/1446A0/g;' "$input" >"$output"

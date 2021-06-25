@@ -12,3 +12,7 @@ The tag is the identifier used by `Replacer.sh` to replace them with hex.
 | accent dark   | `@AD@` | ![](https://via.placeholder.com/15/1D5224/000000?text=+)
 | accent medium | `@AM@` | ![](https://via.placeholder.com/15/3DA94B/000000?text=+)
 | accent light  | `@AL@` | ![](https://via.placeholder.com/15/5CFF72/000000?text=+)
+| add           | `@A@`  | ![](https://via.placeholder.com/15/849324/000000?text=+)
+| warn/change   | `@W@`  | ![](https://via.placeholder.com/15/FFC857/000000?text=+)
+| error/delete  | `@E@`  | ![](https://via.placeholder.com/15/DB3A34/000000?text=+)
+| info          | `@I@`  | ![](https://via.placeholder.com/15/1446A0/000000?text=+)
