@@ -9,7 +9,7 @@ code=$(cat "$base")
 # Parse table
 pattern=$(awk '{
     if(match($0, /`([^`]+)` *\| *!\[\]\(https:\/\/via\.placeholder\.com\/15\/([^/]+)/, m)){
-        printf "s/" m[1] "/" m[2] "/g;";
+        printf "s/" m[1] "/#" m[2] "/g;";
     }
 }' "$tables")
 

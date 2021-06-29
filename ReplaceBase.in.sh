@@ -25,5 +25,5 @@ if [ -f "$output" ]; then
 fi
 
 awk '{
-    if(match($0, / *\/\/ */)){}else{print $0}
+    if(match($0, /"[^"]*": null/)){}else{print $0}
 }' "$input"
