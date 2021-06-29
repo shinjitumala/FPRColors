@@ -2,6 +2,7 @@
 
 Hi. This is the color palette that I use for my machine.
 The tag is the identifier used by `Replacer.sh` to replace them with hex.
+Use `GenerateReplace.sh` to update `Replacer.sh` with the replace table below.
 
 ## Basic Bolocrs
 | Usage         | Tag    | Preview
